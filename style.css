@@ -82,6 +82,69 @@ body[data-theme="warm"] {
   --control-border: rgba(67, 56, 43, 0.09);
 }
 
+body[data-theme="green"] {
+  --bg-top: #6a994e;
+  --bg-bottom: #456b32;
+  --glow: rgba(255, 255, 255, 0.14);
+  --text: #ffffff;
+  --muted: rgba(255, 255, 255, 0.74);
+  --card: rgba(18, 48, 21, 0.34);
+  --card-hover: rgba(18, 48, 21, 0.48);
+  --card-border: rgba(255, 255, 255, 0.16);
+  --avatar-ring: rgba(255, 255, 255, 0.24);
+  --icon-neutral: rgba(255, 255, 255, 0.16);
+  --icon-neutral-text: #ffffff;
+  --arrow: rgba(255, 255, 255, 0.72);
+  --shadow: 0 14px 40px rgba(19, 45, 14, 0.24);
+  --shadow-hover: 0 18px 48px rgba(19, 45, 14, 0.34);
+  --focus: rgba(255, 255, 255, 0.42);
+  --footer: rgba(255, 255, 255, 0.66);
+  --control-bg: rgba(18, 48, 21, 0.34);
+  --control-border: rgba(255, 255, 255, 0.18);
+}
+
+body[data-theme="lavender"] {
+  --bg-top: #b298dc;
+  --bg-bottom: #8667b6;
+  --glow: rgba(255, 255, 255, 0.16);
+  --text: #ffffff;
+  --muted: rgba(255, 255, 255, 0.76);
+  --card: rgba(60, 35, 93, 0.28);
+  --card-hover: rgba(60, 35, 93, 0.42);
+  --card-border: rgba(255, 255, 255, 0.17);
+  --avatar-ring: rgba(255, 255, 255, 0.25);
+  --icon-neutral: rgba(255, 255, 255, 0.16);
+  --icon-neutral-text: #ffffff;
+  --arrow: rgba(255, 255, 255, 0.74);
+  --shadow: 0 14px 40px rgba(46, 28, 78, 0.24);
+  --shadow-hover: 0 18px 48px rgba(46, 28, 78, 0.34);
+  --focus: rgba(255, 255, 255, 0.44);
+  --footer: rgba(255, 255, 255, 0.68);
+  --control-bg: rgba(60, 35, 93, 0.28);
+  --control-border: rgba(255, 255, 255, 0.19);
+}
+
+body[data-theme="autumn"] {
+  --bg-top: #db7c26;
+  --bg-bottom: #a94f16;
+  --glow: rgba(255, 244, 214, 0.16);
+  --text: #ffffff;
+  --muted: rgba(255, 255, 255, 0.76);
+  --card: rgba(85, 39, 12, 0.30);
+  --card-hover: rgba(85, 39, 12, 0.44);
+  --card-border: rgba(255, 244, 214, 0.18);
+  --avatar-ring: rgba(255, 244, 214, 0.25);
+  --icon-neutral: rgba(255, 244, 214, 0.17);
+  --icon-neutral-text: #ffffff;
+  --arrow: rgba(255, 255, 255, 0.74);
+  --shadow: 0 14px 40px rgba(93, 39, 8, 0.26);
+  --shadow-hover: 0 18px 48px rgba(93, 39, 8, 0.36);
+  --focus: rgba(255, 244, 214, 0.46);
+  --footer: rgba(255, 248, 230, 0.68);
+  --control-bg: rgba(85, 39, 12, 0.30);
+  --control-border: rgba(255, 244, 214, 0.20);
+}
+
 * { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }

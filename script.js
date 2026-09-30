@@ -7,12 +7,15 @@ const ICONS = {
   telegram: `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.2 3.5 2.9 10.56c-1.25.5-1.24 1.2-.23 1.5l4.7 1.46 1.81 5.56c.22.61.11.85.76.85.5 0 .72-.23.99-.5l2.4-2.33 4.99 3.68c.92.5 1.58.24 1.81-.85l3.16-14.9c.34-1.35-.52-1.96-1.36-1.53Zm-10.8 10.02-.17 2.56-1.02-3.16 8.94-5.65-7.75 6.25Z"/></svg>`
 };
 
-const THEMES = ['light', 'dark', 'midnight', 'warm'];
+const THEMES = ['light', 'dark', 'midnight', 'warm', 'green', 'lavender', 'autumn'];
 const THEME_META = {
   light: { label: 'Тема: Светлая', icon: '☼', color: '#f5f5f7' },
   dark: { label: 'Тема: Тёмная', icon: '◐', color: '#0f1013' },
   midnight: { label: 'Тема: Midnight', icon: '✦', color: '#0d1420' },
-  warm: { label: 'Тема: Тёплая', icon: '◒', color: '#f4f0e8' }
+  warm: { label: 'Тема: Тёплая', icon: '◒', color: '#f4f0e8' },
+  green: { label: 'Тема: Зелёная', icon: '♣', color: '#6a994e' },
+  lavender: { label: 'Тема: Lavender', icon: '✿', color: '#b298dc' },
+  autumn: { label: 'Тема: Осень', icon: '❧', color: '#db7c26' }
 };
 
 function createLinkCard(link, index) {
