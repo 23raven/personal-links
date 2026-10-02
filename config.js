@@ -13,6 +13,12 @@ window.SITE_CONFIG = {
 
   links: [
     {
+      title: 'Personal Website',
+      detail: 'github.com/23raven',
+      url: 'https://23raven.github.io/portfolio/',
+      icon: 'pw_icon.png'
+    },
+    {
       title: 'GitHub',
       detail: 'github.com/23raven',
       url: 'https://github.com/23raven',

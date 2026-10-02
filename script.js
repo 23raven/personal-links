@@ -31,9 +31,14 @@ function createLinkCard(link, index) {
     card.rel = 'noopener noreferrer';
   }
 
+  const isImageIcon = /\.(png|jpe?g|webp|gif|svg)$/i.test(link.icon || '');
+  const iconContent = isImageIcon
+    ? `<img src="${link.icon}" alt="" />`
+    : (ICONS[link.icon] || ICONS.email);
+
   card.innerHTML = `
-    <span class="icon ${link.icon}" aria-hidden="true">
-      ${ICONS[link.icon] || ICONS.email}
+    <span class="icon ${isImageIcon ? 'custom-icon' : link.icon}" aria-hidden="true">
+      ${iconContent}
     </span>
     <span class="link-copy">
       <strong>${link.title}</strong>

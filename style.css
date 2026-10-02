@@ -265,6 +265,8 @@ h1 { margin: 0; font-size: clamp(31px, 6vw, 42px); line-height: 1.08; font-weigh
 }
 
 .icon svg { width: 22px; height: 22px; }
+.icon.custom-icon { overflow: hidden; }
+.icon.custom-icon img { width: 100%; height: 100%; display: block; object-fit: cover; border-radius: inherit; }
 .icon.github { background: #1d1d1f; color: white; }
 .icon.linkedin { background: #0a66c2; color: white; }
 .icon.itch { background: #fa5c5c; color: white; }
